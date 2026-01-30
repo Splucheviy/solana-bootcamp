@@ -1,0 +1,28 @@
+# Файлы с приватными ключами
+*.json
+!example-keypair.json
+!go.mod
+!go.sum
+
+# Бинарные файлы
+transfer-sol
+convert-key
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Временные файлы
+*.tmp
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
